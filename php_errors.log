@@ -1,0 +1,638 @@
+[10-May-2017 00:28:54 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/INFS3202/PHP/admin.php on line 4
+[10-May-2017 00:28:54 UTC] PHP Stack trace:
+[10-May-2017 00:28:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/login.php:0
+[10-May-2017 00:28:54 UTC] PHP   2. check_login() /home/ubuntu/workspace/INFS3202/PHP/login.php:16
+[10-May-2017 00:28:54 UTC] PHP   3. connect_database() /home/ubuntu/workspace/INFS3202/PHP/admin.php:42
+[10-May-2017 00:28:54 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/INFS3202/PHP/admin.php:4
+[10-May-2017 00:28:54 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/INFS3202/PHP/admin.php on line 6
+[10-May-2017 00:28:54 UTC] PHP Stack trace:
+[10-May-2017 00:28:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/login.php:0
+[10-May-2017 00:28:54 UTC] PHP   2. check_login() /home/ubuntu/workspace/INFS3202/PHP/login.php:16
+[10-May-2017 00:28:54 UTC] PHP   3. connect_database() /home/ubuntu/workspace/INFS3202/PHP/admin.php:42
+[10-May-2017 00:28:54 UTC] PHP   4. mysqli_error() /home/ubuntu/workspace/INFS3202/PHP/admin.php:6
+[10-May-2017 00:29:38 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/INFS3202/PHP/admin.php on line 4
+[10-May-2017 00:29:38 UTC] PHP Stack trace:
+[10-May-2017 00:29:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/login.php:0
+[10-May-2017 00:29:38 UTC] PHP   2. check_login() /home/ubuntu/workspace/INFS3202/PHP/login.php:16
+[10-May-2017 00:29:38 UTC] PHP   3. connect_database() /home/ubuntu/workspace/INFS3202/PHP/admin.php:42
+[10-May-2017 00:29:38 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/INFS3202/PHP/admin.php:4
+[10-May-2017 00:29:38 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/INFS3202/PHP/admin.php on line 6
+[10-May-2017 00:29:38 UTC] PHP Stack trace:
+[10-May-2017 00:29:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/login.php:0
+[10-May-2017 00:29:38 UTC] PHP   2. check_login() /home/ubuntu/workspace/INFS3202/PHP/login.php:16
+[10-May-2017 00:29:38 UTC] PHP   3. connect_database() /home/ubuntu/workspace/INFS3202/PHP/admin.php:42
+[10-May-2017 00:29:38 UTC] PHP   4. mysqli_error() /home/ubuntu/workspace/INFS3202/PHP/admin.php:6
+[10-May-2017 00:30:27 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/INFS3202/PHP/admin.php on line 4
+[10-May-2017 00:30:27 UTC] PHP Stack trace:
+[10-May-2017 00:30:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/login.php:0
+[10-May-2017 00:30:27 UTC] PHP   2. check_login() /home/ubuntu/workspace/INFS3202/PHP/login.php:16
+[10-May-2017 00:30:27 UTC] PHP   3. connect_database() /home/ubuntu/workspace/INFS3202/PHP/admin.php:42
+[10-May-2017 00:30:27 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/INFS3202/PHP/admin.php:4
+[10-May-2017 00:30:27 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/INFS3202/PHP/admin.php on line 6
+[10-May-2017 00:30:27 UTC] PHP Stack trace:
+[10-May-2017 00:30:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/login.php:0
+[10-May-2017 00:30:27 UTC] PHP   2. check_login() /home/ubuntu/workspace/INFS3202/PHP/login.php:16
+[10-May-2017 00:30:27 UTC] PHP   3. connect_database() /home/ubuntu/workspace/INFS3202/PHP/admin.php:42
+[10-May-2017 00:30:27 UTC] PHP   4. mysqli_error() /home/ubuntu/workspace/INFS3202/PHP/admin.php:6
+[10-May-2017 00:33:26 UTC] PHP Fatal error:  Class 'mysqli_connect' not found in /home/ubuntu/workspace/INFS3202/PHP/connect.php on line 2
+[10-May-2017 00:33:26 UTC] PHP Stack trace:
+[10-May-2017 00:33:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/connect.php:0
+[10-May-2017 00:33:54 UTC] PHP Warning:  mysqli::mysqli(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/INFS3202/PHP/connect.php on line 2
+[10-May-2017 00:33:54 UTC] PHP Stack trace:
+[10-May-2017 00:33:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/connect.php:0
+[10-May-2017 00:33:54 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/INFS3202/PHP/connect.php:2
+[10-May-2017 00:33:54 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/INFS3202/PHP/connect.php on line 2
+[10-May-2017 00:33:54 UTC] PHP Stack trace:
+[10-May-2017 00:33:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/connect.php:0
+[10-May-2017 00:33:54 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/INFS3202/PHP/connect.php:2
+[10-May-2017 00:35:28 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/INFS3202/PHP/connect.php on line 2
+[10-May-2017 00:35:28 UTC] PHP Stack trace:
+[10-May-2017 00:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/connect.php:0
+[10-May-2017 00:35:28 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/INFS3202/PHP/connect.php:2
+[10-May-2017 00:38:06 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/INFS3202/PHP/connect.php on line 2
+[10-May-2017 00:38:06 UTC] PHP Stack trace:
+[10-May-2017 00:38:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/connect.php:0
+[10-May-2017 00:38:06 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/INFS3202/PHP/connect.php:2
+[10-May-2017 00:39:09 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/INFS3202/PHP/connect.php on line 2
+[10-May-2017 00:39:09 UTC] PHP Stack trace:
+[10-May-2017 00:39:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/connect.php:0
+[10-May-2017 00:39:09 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/INFS3202/PHP/connect.php:2
+[10-May-2017 00:42:51 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/INFS3202/PHP/connect.php on line 3
+[10-May-2017 00:42:51 UTC] PHP Stack trace:
+[10-May-2017 00:42:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/connect.php:0
+[10-May-2017 00:42:51 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/INFS3202/PHP/connect.php:3
+[10-May-2017 00:42:51 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/ubuntu/workspace/INFS3202/PHP/connect.php on line 5
+[10-May-2017 00:42:51 UTC] PHP Stack trace:
+[10-May-2017 00:42:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/connect.php:0
+[10-May-2017 00:42:51 UTC] PHP   2. mysqli_error() /home/ubuntu/workspace/INFS3202/PHP/connect.php:5
+[10-May-2017 00:44:32 UTC] PHP Warning:  mysql_connect(): Connection timed out in /home/ubuntu/workspace/INFS3202/PHP/connect.php on line 3
+[10-May-2017 00:44:32 UTC] PHP Stack trace:
+[10-May-2017 00:44:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/connect.php:0
+[10-May-2017 00:44:32 UTC] PHP   2. mysql_connect() /home/ubuntu/workspace/INFS3202/PHP/connect.php:3
+[10-May-2017 00:48:28 UTC] PHP Warning:  mysql_connect(): Connection timed out in /home/ubuntu/workspace/INFS3202/PHP/connect.php on line 3
+[10-May-2017 00:48:28 UTC] PHP Stack trace:
+[10-May-2017 00:48:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/connect.php:0
+[10-May-2017 00:48:28 UTC] PHP   2. mysql_connect() /home/ubuntu/workspace/INFS3202/PHP/connect.php:3
+[10-May-2017 00:50:19 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/INFS3202/PHP/connect.php on line 3
+[10-May-2017 00:50:19 UTC] PHP Stack trace:
+[10-May-2017 00:50:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/connect.php:0
+[10-May-2017 00:50:19 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/INFS3202/PHP/connect.php:3
+[10-May-2017 00:51:15 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/INFS3202/PHP/connect.php on line 3
+[10-May-2017 00:51:15 UTC] PHP Stack trace:
+[10-May-2017 00:51:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/connect.php:0
+[10-May-2017 00:51:15 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/INFS3202/PHP/connect.php:3
+[10-May-2017 00:59:00 UTC] PHP Warning:  dir() expects parameter 1 to be a valid path, resource given in /home/ubuntu/workspace/INFS3202/UI Test/index.php on line 12
+[10-May-2017 00:59:00 UTC] PHP Stack trace:
+[10-May-2017 00:59:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/UI Test/index.php:0
+[10-May-2017 00:59:00 UTC] PHP   2. dir() /home/ubuntu/workspace/INFS3202/UI Test/index.php:12
+[10-May-2017 04:29:21 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/INFS3202/PHP/admin.php on line 4
+[10-May-2017 04:29:21 UTC] PHP Stack trace:
+[10-May-2017 04:29:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/create_user.php:0
+[10-May-2017 04:29:21 UTC] PHP   2. create_user() /home/ubuntu/workspace/INFS3202/PHP/create_user.php:8
+[10-May-2017 04:29:21 UTC] PHP   3. connect_database() /home/ubuntu/workspace/INFS3202/PHP/admin.php:17
+[10-May-2017 04:29:21 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/INFS3202/PHP/admin.php:4
+[10-May-2017 04:29:21 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/INFS3202/PHP/admin.php on line 6
+[10-May-2017 04:29:21 UTC] PHP Stack trace:
+[10-May-2017 04:29:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/create_user.php:0
+[10-May-2017 04:29:21 UTC] PHP   2. create_user() /home/ubuntu/workspace/INFS3202/PHP/create_user.php:8
+[10-May-2017 04:29:21 UTC] PHP   3. connect_database() /home/ubuntu/workspace/INFS3202/PHP/admin.php:17
+[10-May-2017 04:29:21 UTC] PHP   4. mysqli_error() /home/ubuntu/workspace/INFS3202/PHP/admin.php:6
+[10-May-2017 04:44:06 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/INFS3202/PHP/connect.php on line 3
+[10-May-2017 04:44:06 UTC] PHP Stack trace:
+[10-May-2017 04:44:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/connect.php:0
+[10-May-2017 04:44:06 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/INFS3202/PHP/connect.php:3
+[10-May-2017 04:48:03 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/INFS3202/PHP/connect.php on line 3
+[10-May-2017 04:48:03 UTC] PHP Stack trace:
+[10-May-2017 04:48:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/connect.php:0
+[10-May-2017 04:48:03 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/INFS3202/PHP/connect.php:3
+[10-May-2017 04:48:24 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection timed out in /home/ubuntu/workspace/INFS3202/PHP/connect.php on line 3
+[10-May-2017 04:48:24 UTC] PHP Stack trace:
+[10-May-2017 04:48:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/PHP/connect.php:0
+[10-May-2017 04:48:24 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/INFS3202/PHP/connect.php:3
+[14-May-2017 13:39:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/INFS3202/php/session.php on line 31
+[14-May-2017 13:39:19 UTC] PHP Stack trace:
+[14-May-2017 13:39:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/session.php:0
+[14-May-2017 13:39:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/INFS3202/php/session.php on line 31
+[14-May-2017 13:39:39 UTC] PHP Stack trace:
+[14-May-2017 13:39:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/session.php:0
+[14-May-2017 13:40:57 UTC] PHP Fatal error:  Call to undefined method sessionStatus::getStatus() in /home/ubuntu/workspace/INFS3202/php/session.php on line 16
+[14-May-2017 13:40:57 UTC] PHP Stack trace:
+[14-May-2017 13:40:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/session.php:0
+[14-May-2017 13:40:57 UTC] PHP   2. sessionStatus->printStatus() /home/ubuntu/workspace/INFS3202/php/session.php:31
+[14-May-2017 13:41:11 UTC] PHP Fatal error:  Call to undefined method sessionStatus::getStatus() in /home/ubuntu/workspace/INFS3202/php/session.php on line 16
+[14-May-2017 13:41:11 UTC] PHP Stack trace:
+[14-May-2017 13:41:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/session.php:0
+[14-May-2017 13:41:11 UTC] PHP   2. sessionStatus->printStatus() /home/ubuntu/workspace/INFS3202/php/session.php:31
+[14-May-2017 14:04:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/INFS3202/php/logout.php on line 12
+[14-May-2017 14:04:59 UTC] PHP Stack trace:
+[14-May-2017 14:04:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/logout.php:0
+[14-May-2017 14:05:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/INFS3202/php/logout.php on line 12
+[14-May-2017 14:05:11 UTC] PHP Stack trace:
+[14-May-2017 14:05:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/logout.php:0
+[14-May-2017 14:05:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/INFS3202/php/logout.php on line 12
+[14-May-2017 14:05:36 UTC] PHP Stack trace:
+[14-May-2017 14:05:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/logout.php:0
+[14-May-2017 14:06:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/INFS3202/php/logout.php on line 13
+[14-May-2017 14:06:49 UTC] PHP Stack trace:
+[14-May-2017 14:06:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/logout.php:0
+[14-May-2017 14:54:32 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/ubuntu/workspace/INFS3202/php/admin.php on line 71
+[14-May-2017 14:54:32 UTC] PHP Stack trace:
+[14-May-2017 14:54:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/logout.php:0
+[15-May-2017 01:22:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/INFS3202/php/reminder.php:151) in /home/ubuntu/workspace/INFS3202/php/security.php on line 8
+[15-May-2017 01:22:19 UTC] PHP Stack trace:
+[15-May-2017 01:22:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminder.php:0
+[15-May-2017 01:22:19 UTC] PHP   2. require_once() /home/ubuntu/workspace/INFS3202/php/create_reminder.php:4
+[15-May-2017 01:22:19 UTC] PHP   3. require_once() /home/ubuntu/workspace/INFS3202/php/session.php:2
+[15-May-2017 01:22:19 UTC] PHP   4. header() /home/ubuntu/workspace/INFS3202/php/security.php:8
+[15-May-2017 01:22:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/INFS3202/php/reminder.php:151) in /home/ubuntu/workspace/INFS3202/php/create_reminder.php on line 6
+[15-May-2017 01:22:19 UTC] PHP Stack trace:
+[15-May-2017 01:22:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminder.php:0
+[15-May-2017 01:22:19 UTC] PHP   2. header() /home/ubuntu/workspace/INFS3202/php/create_reminder.php:6
+[15-May-2017 01:22:19 UTC] PHP Fatal error:  Class 'reminder' not found in /home/ubuntu/workspace/INFS3202/php/create_reminder.php on line 8
+[15-May-2017 01:22:19 UTC] PHP Stack trace:
+[15-May-2017 01:22:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminder.php:0
+[15-May-2017 01:23:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/INFS3202/php/reminder.php:151) in /home/ubuntu/workspace/INFS3202/php/security.php on line 8
+[15-May-2017 01:23:38 UTC] PHP Stack trace:
+[15-May-2017 01:23:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminder.php:0
+[15-May-2017 01:23:38 UTC] PHP   2. require_once() /home/ubuntu/workspace/INFS3202/php/create_reminder.php:4
+[15-May-2017 01:23:38 UTC] PHP   3. require_once() /home/ubuntu/workspace/INFS3202/php/session.php:2
+[15-May-2017 01:23:38 UTC] PHP   4. header() /home/ubuntu/workspace/INFS3202/php/security.php:8
+[15-May-2017 01:23:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/INFS3202/php/reminder.php:151) in /home/ubuntu/workspace/INFS3202/php/create_reminder.php on line 6
+[15-May-2017 01:23:38 UTC] PHP Stack trace:
+[15-May-2017 01:23:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminder.php:0
+[15-May-2017 01:23:38 UTC] PHP   2. header() /home/ubuntu/workspace/INFS3202/php/create_reminder.php:6
+[15-May-2017 01:23:38 UTC] PHP Fatal error:  Class 'reminder' not found in /home/ubuntu/workspace/INFS3202/php/create_reminder.php on line 8
+[15-May-2017 01:23:38 UTC] PHP Stack trace:
+[15-May-2017 01:23:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminder.php:0
+[15-May-2017 01:44:49 UTC] PHP Fatal error:  Call to undefined function check_login() in /home/ubuntu/workspace/INFS3202/php/create_course.php on line 11
+[15-May-2017 01:44:49 UTC] PHP Stack trace:
+[15-May-2017 01:44:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_course.php:0
+[15-May-2017 01:48:30 UTC] PHP Fatal error:  Call to undefined function connect_database() in /home/ubuntu/workspace/INFS3202/php/course.php on line 64
+[15-May-2017 01:48:30 UTC] PHP Stack trace:
+[15-May-2017 01:48:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/controller_course.php:0
+[15-May-2017 01:48:30 UTC] PHP   2. course->show_course() /home/ubuntu/workspace/INFS3202/php/controller_course.php:30
+[15-May-2017 01:48:35 UTC] PHP Fatal error:  Call to undefined function connect_database() in /home/ubuntu/workspace/INFS3202/php/course.php on line 64
+[15-May-2017 01:48:35 UTC] PHP Stack trace:
+[15-May-2017 01:48:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/controller_course.php:0
+[15-May-2017 01:48:35 UTC] PHP   2. course->show_course() /home/ubuntu/workspace/INFS3202/php/controller_course.php:30
+[15-May-2017 01:50:56 UTC] PHP Fatal error:  Call to undefined function connect_database() in /home/ubuntu/workspace/INFS3202/php/course.php on line 64
+[15-May-2017 01:50:56 UTC] PHP Stack trace:
+[15-May-2017 01:50:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/controller_course.php:0
+[15-May-2017 01:50:56 UTC] PHP   2. course->show_course() /home/ubuntu/workspace/INFS3202/php/controller_course.php:30
+[15-May-2017 01:50:59 UTC] PHP Fatal error:  Call to undefined function connect_database() in /home/ubuntu/workspace/INFS3202/php/course.php on line 64
+[15-May-2017 01:50:59 UTC] PHP Stack trace:
+[15-May-2017 01:50:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/controller_course.php:0
+[15-May-2017 01:50:59 UTC] PHP   2. course->show_course() /home/ubuntu/workspace/INFS3202/php/controller_course.php:30
+[15-May-2017 01:51:08 UTC] PHP Fatal error:  Call to undefined function connect_database() in /home/ubuntu/workspace/INFS3202/php/course.php on line 64
+[15-May-2017 01:51:08 UTC] PHP Stack trace:
+[15-May-2017 01:51:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/controller_course.php:0
+[15-May-2017 01:51:08 UTC] PHP   2. course->show_course() /home/ubuntu/workspace/INFS3202/php/controller_course.php:30
+[15-May-2017 07:33:30 UTC] PHP Fatal error:  Call to undefined function mysqli_stmt_excecute() in /home/ubuntu/workspace/INFS3202/php/course.php on line 27
+[15-May-2017 07:33:30 UTC] PHP Stack trace:
+[15-May-2017 07:33:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/delete_course.php:0
+[15-May-2017 07:33:30 UTC] PHP   2. course->delete_course() /home/ubuntu/workspace/INFS3202/php/delete_course.php:15
+[15-May-2017 07:35:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/INFS3202/php/delete_course.php on line 17
+[15-May-2017 07:42:25 UTC] PHP Fatal error:  Call to undefined function check_coursecode() in /home/ubuntu/workspace/INFS3202/php/delete_course.php on line 15
+[15-May-2017 07:42:25 UTC] PHP Stack trace:
+[15-May-2017 07:42:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/delete_course.php:0
+[15-May-2017 07:43:12 UTC] PHP Fatal error:  Call to undefined function check_coursecode() in /home/ubuntu/workspace/INFS3202/php/delete_course.php on line 15
+[15-May-2017 07:43:12 UTC] PHP Stack trace:
+[15-May-2017 07:43:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/delete_course.php:0
+[15-May-2017 07:54:25 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/ubuntu/workspace/INFS3202/php/reminder.php on line 68
+[15-May-2017 07:54:25 UTC] PHP Stack trace:
+[15-May-2017 07:54:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminder.php:0
+[15-May-2017 07:54:25 UTC] PHP   2. reminder->check_reminder() /home/ubuntu/workspace/INFS3202/php/create_reminder.php:13
+[15-May-2017 07:54:25 UTC] PHP   3. mysqli_stmt_bind_param() /home/ubuntu/workspace/INFS3202/php/reminder.php:68
+[15-May-2017 07:57:20 UTC] PHP Warning:  Missing argument 3 for reminder::change_remindertitle(), called in /home/ubuntu/workspace/INFS3202/php/change_remindertitle.php on line 22 and defined in /home/ubuntu/workspace/INFS3202/php/reminder.php on line 36
+[15-May-2017 07:57:20 UTC] PHP Stack trace:
+[15-May-2017 07:57:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/change_remindertitle.php:0
+[15-May-2017 07:57:20 UTC] PHP   2. reminder->change_remindertitle() /home/ubuntu/workspace/INFS3202/php/change_remindertitle.php:22
+[15-May-2017 08:03:08 UTC] PHP Fatal error:  Class 'reminderlist' not found in /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php on line 8
+[15-May-2017 08:03:08 UTC] PHP Stack trace:
+[15-May-2017 08:03:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:0
+[15-May-2017 08:03:50 UTC] PHP Fatal error:  Call to undefined method reminderlist::check_reminder() in /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php on line 13
+[15-May-2017 08:03:50 UTC] PHP Stack trace:
+[15-May-2017 08:03:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:0
+[15-May-2017 08:04:38 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/ubuntu/workspace/INFS3202/php/admin.php on line 149
+[15-May-2017 08:04:38 UTC] PHP Stack trace:
+[15-May-2017 08:04:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:0
+[15-May-2017 08:04:38 UTC] PHP   2. reminderlist->check_reminderlist() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:13
+[15-May-2017 08:04:38 UTC] PHP   3. get_rid() /home/ubuntu/workspace/INFS3202/php/reminder.php:140
+[15-May-2017 08:04:38 UTC] PHP   4. mysqli_stmt_bind_param() /home/ubuntu/workspace/INFS3202/php/admin.php:149
+[15-May-2017 08:04:38 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/ubuntu/workspace/INFS3202/php/reminder.php on line 140
+[15-May-2017 08:04:38 UTC] PHP Stack trace:
+[15-May-2017 08:04:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:0
+[15-May-2017 08:04:38 UTC] PHP   2. reminderlist->check_reminderlist() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:13
+[15-May-2017 08:04:38 UTC] PHP   3. mysqli_stmt_bind_param() /home/ubuntu/workspace/INFS3202/php/reminder.php:140
+[15-May-2017 08:04:38 UTC] PHP Fatal error:  Call to a member function create_reminder() on a non-object in /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php on line 17
+[15-May-2017 08:04:38 UTC] PHP Stack trace:
+[15-May-2017 08:04:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:0
+[15-May-2017 08:05:06 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/ubuntu/workspace/INFS3202/php/reminder.php on line 140
+[15-May-2017 08:05:06 UTC] PHP Stack trace:
+[15-May-2017 08:05:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:0
+[15-May-2017 08:05:06 UTC] PHP   2. reminderlist->check_reminderlist() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:13
+[15-May-2017 08:05:06 UTC] PHP   3. mysqli_stmt_bind_param() /home/ubuntu/workspace/INFS3202/php/reminder.php:140
+[15-May-2017 08:05:06 UTC] PHP Fatal error:  Call to a member function create_reminder() on a non-object in /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php on line 17
+[15-May-2017 08:05:06 UTC] PHP Stack trace:
+[15-May-2017 08:05:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:0
+[15-May-2017 08:05:18 UTC] PHP Fatal error:  Call to a member function create_reminder() on a non-object in /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php on line 17
+[15-May-2017 08:05:18 UTC] PHP Stack trace:
+[15-May-2017 08:05:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:0
+[15-May-2017 08:05:46 UTC] PHP Fatal error:  Call to undefined method reminderlist::create_reminder() in /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php on line 17
+[15-May-2017 08:05:46 UTC] PHP Stack trace:
+[15-May-2017 08:05:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:0
+[15-May-2017 08:05:52 UTC] PHP Fatal error:  Call to undefined method reminderlist::create_reminder() in /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php on line 17
+[15-May-2017 08:05:52 UTC] PHP Stack trace:
+[15-May-2017 08:05:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:0
+[15-May-2017 12:05:45 UTC] PHP Warning:  require_once(reminder.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php on line 3
+[15-May-2017 12:05:45 UTC] PHP Stack trace:
+[15-May-2017 12:05:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:0
+[15-May-2017 12:05:45 UTC] PHP Fatal error:  require_once(): Failed opening required 'reminder.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php on line 3
+[15-May-2017 12:05:45 UTC] PHP Stack trace:
+[15-May-2017 12:05:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:0
+[15-May-2017 13:07:16 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1049): Unknown database 'blog_examples' in /home/ubuntu/workspace/INFS3202/php/sort.php on line 2
+[15-May-2017 13:07:16 UTC] PHP Stack trace:
+[15-May-2017 13:07:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/sort.php:0
+[15-May-2017 13:07:16 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/INFS3202/php/sort.php:2
+[15-May-2017 13:07:16 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/ubuntu/workspace/INFS3202/php/sort.php on line 10
+[15-May-2017 13:07:16 UTC] PHP Stack trace:
+[15-May-2017 13:07:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/sort.php:0
+[15-May-2017 13:07:16 UTC] PHP   2. mysqli->query() /home/ubuntu/workspace/INFS3202/php/sort.php:10
+[15-May-2017 13:07:16 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/ubuntu/workspace/INFS3202/php/sort.php on line 46
+[15-May-2017 13:07:16 UTC] PHP Stack trace:
+[15-May-2017 13:07:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/sort.php:0
+[16-May-2017 05:03:23 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/INFS3202/php/admin.php on line 255
+[16-May-2017 05:03:23 UTC] PHP Stack trace:
+[16-May-2017 05:03:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course.php:0
+[16-May-2017 05:12:59 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/INFS3202/php/admin.php on line 256
+[16-May-2017 05:12:59 UTC] PHP Stack trace:
+[16-May-2017 05:12:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course.php:0
+[16-May-2017 05:12:59 UTC] PHP   2. course->show_course() /home/ubuntu/workspace/INFS3202/php/show_course.php:14
+[16-May-2017 05:13:40 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/INFS3202/php/admin.php on line 256
+[16-May-2017 05:13:40 UTC] PHP Stack trace:
+[16-May-2017 05:13:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course.php:0
+[16-May-2017 05:13:40 UTC] PHP   2. course->show_course() /home/ubuntu/workspace/INFS3202/php/show_course.php:14
+[16-May-2017 10:28:22 UTC] PHP Fatal error:  Call to undefined function prinf() in /home/ubuntu/workspace/INFS3202/php/show_course.php on line 16
+[16-May-2017 10:28:22 UTC] PHP Stack trace:
+[16-May-2017 10:28:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course.php:0
+[16-May-2017 10:29:08 UTC] PHP Fatal error:  Call to undefined function prinf() in /home/ubuntu/workspace/INFS3202/php/show_course.php on line 16
+[16-May-2017 10:29:08 UTC] PHP Stack trace:
+[16-May-2017 10:29:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course.php:0
+[16-May-2017 12:13:13 UTC] PHP Fatal error:  Call to undefined function new_reminderlist_order() in /home/ubuntu/workspace/INFS3202/php/admin.php on line 420
+[16-May-2017 12:13:13 UTC] PHP Stack trace:
+[16-May-2017 12:13:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:0
+[16-May-2017 12:13:13 UTC] PHP   2. reminderlist->create_reminderlist() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:17
+[16-May-2017 12:14:09 UTC] PHP Fatal error:  Call to a member function new_reminderlist_order() on a non-object in /home/ubuntu/workspace/INFS3202/php/admin.php on line 420
+[16-May-2017 12:14:09 UTC] PHP Stack trace:
+[16-May-2017 12:14:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:0
+[16-May-2017 12:14:09 UTC] PHP   2. reminderlist->create_reminderlist() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:17
+[16-May-2017 12:14:26 UTC] PHP Fatal error:  Call to undefined function new_reminderlist_order() in /home/ubuntu/workspace/INFS3202/php/admin.php on line 419
+[16-May-2017 12:14:26 UTC] PHP Stack trace:
+[16-May-2017 12:14:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:0
+[16-May-2017 12:14:26 UTC] PHP   2. reminderlist->create_reminderlist() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:17
+[16-May-2017 12:15:57 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php on line 19
+[16-May-2017 12:16:18 UTC] PHP Fatal error:  Call to undefined function new_reminderlist_order() in /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php on line 17
+[16-May-2017 12:16:18 UTC] PHP Stack trace:
+[16-May-2017 12:16:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:0
+[16-May-2017 12:21:31 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/INFS3202/php/admin.php on line 540
+[16-May-2017 12:21:31 UTC] PHP Stack trace:
+[16-May-2017 12:21:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/login.php:0
+[16-May-2017 12:21:37 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/INFS3202/php/admin.php on line 540
+[16-May-2017 12:21:37 UTC] PHP Stack trace:
+[16-May-2017 12:21:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:0
+[16-May-2017 12:24:02 UTC] PHP Fatal error:  Call to undefined function new_reminderlist_order() in /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php on line 13
+[16-May-2017 12:24:02 UTC] PHP Stack trace:
+[16-May-2017 12:24:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_reminderlist.php:0
+[16-May-2017 12:54:04 UTC] PHP Fatal error:  Call to undefined function current_reminderlist_order() in /home/ubuntu/workspace/INFS3202/php/delete_reminderlist.php on line 13
+[16-May-2017 12:54:04 UTC] PHP Stack trace:
+[16-May-2017 12:54:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/delete_reminderlist.php:0
+[16-May-2017 15:12:06 UTC] PHP Fatal error:  Call to undefined function shift_roworder() in /home/ubuntu/workspace/INFS3202/php/shift_reminderlist.php on line 13
+[16-May-2017 15:12:06 UTC] PHP Stack trace:
+[16-May-2017 15:12:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/shift_reminderlist.php:0
+[16-May-2017 15:13:00 UTC] PHP Fatal error:  Call to undefined function current_reminderlist_order() in /home/ubuntu/workspace/INFS3202/php/admin.php on line 544
+[16-May-2017 15:13:00 UTC] PHP Stack trace:
+[16-May-2017 15:13:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/shift_reminderlist.php:0
+[16-May-2017 15:13:00 UTC] PHP   2. reminderlist->shift_roworder() /home/ubuntu/workspace/INFS3202/php/shift_reminderlist.php:13
+[16-May-2017 15:14:56 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/ubuntu/workspace/INFS3202/php/admin.php on line 556
+[16-May-2017 15:14:56 UTC] PHP Stack trace:
+[16-May-2017 15:14:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/shift_reminderlist.php:0
+[16-May-2017 15:14:56 UTC] PHP   2. reminderlist->shift_roworder() /home/ubuntu/workspace/INFS3202/php/shift_reminderlist.php:13
+[16-May-2017 15:14:56 UTC] PHP   3. mysqli_stmt_bind_param() /home/ubuntu/workspace/INFS3202/php/admin.php:556
+[16-May-2017 15:14:56 UTC] PHP Warning:  mysqli_stmt_bind_param(): Couldn't fetch mysqli_stmt in /home/ubuntu/workspace/INFS3202/php/admin.php on line 560
+[16-May-2017 15:14:56 UTC] PHP Stack trace:
+[16-May-2017 15:14:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/shift_reminderlist.php:0
+[16-May-2017 15:14:56 UTC] PHP   2. reminderlist->shift_roworder() /home/ubuntu/workspace/INFS3202/php/shift_reminderlist.php:13
+[16-May-2017 15:14:56 UTC] PHP   3. mysqli_stmt_bind_param() /home/ubuntu/workspace/INFS3202/php/admin.php:560
+[16-May-2017 15:14:56 UTC] PHP Warning:  mysqli_stmt_execute(): Couldn't fetch mysqli_stmt in /home/ubuntu/workspace/INFS3202/php/admin.php on line 561
+[16-May-2017 15:14:56 UTC] PHP Stack trace:
+[16-May-2017 15:14:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/shift_reminderlist.php:0
+[16-May-2017 15:14:56 UTC] PHP   2. reminderlist->shift_roworder() /home/ubuntu/workspace/INFS3202/php/shift_reminderlist.php:13
+[16-May-2017 15:14:56 UTC] PHP   3. mysqli_stmt_execute() /home/ubuntu/workspace/INFS3202/php/admin.php:561
+[16-May-2017 15:14:56 UTC] PHP Warning:  mysqli_stmt_close(): Couldn't fetch mysqli_stmt in /home/ubuntu/workspace/INFS3202/php/admin.php on line 562
+[16-May-2017 15:14:56 UTC] PHP Stack trace:
+[16-May-2017 15:14:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/shift_reminderlist.php:0
+[16-May-2017 15:14:56 UTC] PHP   2. reminderlist->shift_roworder() /home/ubuntu/workspace/INFS3202/php/shift_reminderlist.php:13
+[16-May-2017 15:14:56 UTC] PHP   3. mysqli_stmt_close() /home/ubuntu/workspace/INFS3202/php/admin.php:562
+[16-May-2017 15:15:17 UTC] PHP Warning:  mysqli_stmt_bind_param(): Couldn't fetch mysqli_stmt in /home/ubuntu/workspace/INFS3202/php/admin.php on line 560
+[16-May-2017 15:15:17 UTC] PHP Stack trace:
+[16-May-2017 15:15:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/shift_reminderlist.php:0
+[16-May-2017 15:15:17 UTC] PHP   2. reminderlist->shift_roworder() /home/ubuntu/workspace/INFS3202/php/shift_reminderlist.php:13
+[16-May-2017 15:15:17 UTC] PHP   3. mysqli_stmt_bind_param() /home/ubuntu/workspace/INFS3202/php/admin.php:560
+[16-May-2017 15:15:17 UTC] PHP Warning:  mysqli_stmt_execute(): Couldn't fetch mysqli_stmt in /home/ubuntu/workspace/INFS3202/php/admin.php on line 561
+[16-May-2017 15:15:17 UTC] PHP Stack trace:
+[16-May-2017 15:15:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/shift_reminderlist.php:0
+[16-May-2017 15:15:17 UTC] PHP   2. reminderlist->shift_roworder() /home/ubuntu/workspace/INFS3202/php/shift_reminderlist.php:13
+[16-May-2017 15:15:17 UTC] PHP   3. mysqli_stmt_execute() /home/ubuntu/workspace/INFS3202/php/admin.php:561
+[16-May-2017 15:15:17 UTC] PHP Warning:  mysqli_stmt_close(): Couldn't fetch mysqli_stmt in /home/ubuntu/workspace/INFS3202/php/admin.php on line 562
+[16-May-2017 15:15:17 UTC] PHP Stack trace:
+[16-May-2017 15:15:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/shift_reminderlist.php:0
+[16-May-2017 15:15:17 UTC] PHP   2. reminderlist->shift_roworder() /home/ubuntu/workspace/INFS3202/php/shift_reminderlist.php:13
+[16-May-2017 15:15:17 UTC] PHP   3. mysqli_stmt_close() /home/ubuntu/workspace/INFS3202/php/admin.php:562
+[16-May-2017 15:28:10 UTC] PHP Fatal error:  Undefined constant 'n' in /home/ubuntu/workspace/INFS3202/php/admin.php on line 557
+[16-May-2017 15:28:10 UTC] PHP Stack trace:
+[16-May-2017 15:28:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/shift_reminderlist.php:0
+[16-May-2017 15:28:10 UTC] PHP   2. reminderlist->shift_roworder() /home/ubuntu/workspace/INFS3202/php/shift_reminderlist.php:13
+[16-May-2017 16:23:12 UTC] PHP Fatal error:  Call to undefined function get_color() in /home/ubuntu/workspace/INFS3202/php/admin.php on line 197
+[16-May-2017 16:23:12 UTC] PHP Stack trace:
+[16-May-2017 16:23:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_course.php:0
+[16-May-2017 16:23:12 UTC] PHP   2. course->create_course() /home/ubuntu/workspace/INFS3202/php/create_course.php:21
+[16-May-2017 16:23:53 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/ubuntu/workspace/INFS3202/php/admin.php on line 198
+[16-May-2017 16:23:53 UTC] PHP Stack trace:
+[16-May-2017 16:23:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_course.php:0
+[16-May-2017 16:23:53 UTC] PHP   2. course->create_course() /home/ubuntu/workspace/INFS3202/php/create_course.php:21
+[16-May-2017 16:23:53 UTC] PHP   3. mysqli_stmt_bind_param() /home/ubuntu/workspace/INFS3202/php/admin.php:198
+[17-May-2017 00:08:06 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) in /home/ubuntu/workspace/INFS3202/php/admin.php on line 607
+[17-May-2017 00:08:06 UTC] PHP Stack trace:
+[17-May-2017 00:08:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/login.php:0
+[17-May-2017 00:08:14 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) in /home/ubuntu/workspace/INFS3202/php/admin.php on line 607
+[17-May-2017 00:08:14 UTC] PHP Stack trace:
+[17-May-2017 00:08:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/login.php:0
+[17-May-2017 12:25:26 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/ubuntu/workspace/INFS3202/php/admin.php on line 25
+[17-May-2017 12:25:26 UTC] PHP Stack trace:
+[17-May-2017 12:25:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/controller.php:0
+[17-May-2017 12:25:26 UTC] PHP   2. create_user() /home/ubuntu/workspace/INFS3202/php/controller.php:27
+[17-May-2017 12:25:26 UTC] PHP   3. mysqli_stmt_bind_param() /home/ubuntu/workspace/INFS3202/php/admin.php:25
+[17-May-2017 12:34:09 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/ubuntu/workspace/INFS3202/php/admin.php on line 25
+[17-May-2017 12:34:09 UTC] PHP Stack trace:
+[17-May-2017 12:34:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/controller.php:0
+[17-May-2017 12:34:09 UTC] PHP   2. create_user() /home/ubuntu/workspace/INFS3202/php/controller.php:27
+[17-May-2017 12:34:09 UTC] PHP   3. mysqli_stmt_bind_param() /home/ubuntu/workspace/INFS3202/php/admin.php:25
+[18-May-2017 01:56:55 UTC] PHP Fatal error:  Call to undefined function show_reminder() in /home/ubuntu/workspace/INFS3202/php/controller.php on line 264
+[18-May-2017 01:56:55 UTC] PHP Stack trace:
+[18-May-2017 01:56:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/controller.php:0
+[18-May-2017 01:59:07 UTC] PHP Fatal error:  Call to undefined function show_reminder() in /home/ubuntu/workspace/INFS3202/php/controller.php on line 264
+[18-May-2017 01:59:07 UTC] PHP Stack trace:
+[18-May-2017 01:59:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/controller.php:0
+[18-May-2017 02:00:35 UTC] PHP Fatal error:  Call to undefined function show_reminder() in /home/ubuntu/workspace/INFS3202/php/controller.php on line 264
+[18-May-2017 02:00:35 UTC] PHP Stack trace:
+[18-May-2017 02:00:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/controller.php:0
+[18-May-2017 03:22:42 UTC] PHP Fatal error:  Call to a member function get_color() on a non-object in /home/ubuntu/workspace/INFS3202/php/admin.php on line 291
+[18-May-2017 03:22:42 UTC] PHP Stack trace:
+[18-May-2017 03:22:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/create_course.php:0
+[18-May-2017 03:22:42 UTC] PHP   2. course->create_course() /home/ubuntu/workspace/INFS3202/php/create_course.php:21
+[18-May-2017 03:30:06 UTC] PHP Fatal error:  Call to undefined method reminder::show_course() in /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php on line 19
+[18-May-2017 03:30:06 UTC] PHP Stack trace:
+[18-May-2017 03:30:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[18-May-2017 03:30:27 UTC] PHP Warning:  array_push() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/INFS3202/php/admin.php on line 506
+[18-May-2017 03:30:27 UTC] PHP Stack trace:
+[18-May-2017 03:30:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[18-May-2017 03:30:27 UTC] PHP   2. reminder->show_course_reminder() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:19
+[18-May-2017 03:30:27 UTC] PHP   3. array_push() /home/ubuntu/workspace/INFS3202/php/admin.php:506
+[18-May-2017 03:35:32 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/INFS3202/php/admin.php on line 506
+[18-May-2017 03:35:32 UTC] PHP Stack trace:
+[18-May-2017 03:35:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[18-May-2017 03:35:32 UTC] PHP   2. reminder->show_course_reminder() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:19
+[18-May-2017 03:35:32 UTC] PHP   3. array_push() /home/ubuntu/workspace/INFS3202/php/admin.php:506
+[18-May-2017 03:35:32 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/INFS3202/php/admin.php on line 506
+[18-May-2017 03:35:32 UTC] PHP Stack trace:
+[18-May-2017 03:35:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[18-May-2017 03:35:32 UTC] PHP   2. reminder->show_course_reminder() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:19
+[18-May-2017 03:35:32 UTC] PHP   3. array_push() /home/ubuntu/workspace/INFS3202/php/admin.php:506
+[18-May-2017 03:36:36 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/INFS3202/php/admin.php on line 506
+[18-May-2017 03:36:36 UTC] PHP Stack trace:
+[18-May-2017 03:36:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[18-May-2017 03:36:36 UTC] PHP   2. reminder->show_course_reminder() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:19
+[18-May-2017 03:36:36 UTC] PHP   3. array_push() /home/ubuntu/workspace/INFS3202/php/admin.php:506
+[18-May-2017 03:36:36 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/INFS3202/php/admin.php on line 506
+[18-May-2017 03:36:36 UTC] PHP Stack trace:
+[18-May-2017 03:36:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[18-May-2017 03:36:36 UTC] PHP   2. reminder->show_course_reminder() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:19
+[18-May-2017 03:36:36 UTC] PHP   3. array_push() /home/ubuntu/workspace/INFS3202/php/admin.php:506
+[18-May-2017 13:38:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php on line 21
+[18-May-2017 13:38:38 UTC] PHP Stack trace:
+[18-May-2017 13:38:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[18-May-2017 13:41:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php on line 21
+[18-May-2017 13:41:53 UTC] PHP Stack trace:
+[18-May-2017 13:41:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[18-May-2017 13:42:28 UTC] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php on line 17
+[18-May-2017 13:42:28 UTC] PHP Stack trace:
+[18-May-2017 13:42:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[18-May-2017 13:42:28 UTC] PHP   2. stripslashes() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:17
+[18-May-2017 13:42:53 UTC] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php on line 17
+[18-May-2017 13:42:53 UTC] PHP Stack trace:
+[18-May-2017 13:42:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[18-May-2017 13:42:53 UTC] PHP   2. stripslashes() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:17
+[18-May-2017 13:43:14 UTC] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php on line 19
+[18-May-2017 13:43:14 UTC] PHP Stack trace:
+[18-May-2017 13:43:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[18-May-2017 13:43:14 UTC] PHP   2. stripslashes() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:19
+[18-May-2017 13:43:36 UTC] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php on line 19
+[18-May-2017 13:43:36 UTC] PHP Stack trace:
+[18-May-2017 13:43:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[18-May-2017 13:43:36 UTC] PHP   2. stripslashes() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:19
+[18-May-2017 13:43:52 UTC] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php on line 19
+[18-May-2017 13:43:52 UTC] PHP Stack trace:
+[18-May-2017 13:43:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[18-May-2017 13:43:52 UTC] PHP   2. stripslashes() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:19
+[18-May-2017 13:46:18 UTC] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php on line 19
+[18-May-2017 13:46:18 UTC] PHP Stack trace:
+[18-May-2017 13:46:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[18-May-2017 13:46:18 UTC] PHP   2. stripslashes() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:19
+[18-May-2017 13:46:29 UTC] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php on line 19
+[18-May-2017 13:46:29 UTC] PHP Stack trace:
+[18-May-2017 13:46:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[18-May-2017 13:46:29 UTC] PHP   2. stripslashes() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:19
+[18-May-2017 13:46:52 UTC] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php on line 19
+[18-May-2017 13:46:52 UTC] PHP Stack trace:
+[18-May-2017 13:46:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[18-May-2017 13:46:52 UTC] PHP   2. stripslashes() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:19
+[19-May-2017 01:35:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php on line 22
+[19-May-2017 01:35:06 UTC] PHP Stack trace:
+[19-May-2017 01:35:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[19-May-2017 01:35:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php on line 22
+[19-May-2017 01:35:14 UTC] PHP Stack trace:
+[19-May-2017 01:35:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[19-May-2017 01:35:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php on line 22
+[19-May-2017 01:35:24 UTC] PHP Stack trace:
+[19-May-2017 01:35:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[19-May-2017 01:35:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php on line 22
+[19-May-2017 01:35:27 UTC] PHP Stack trace:
+[19-May-2017 01:35:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[19-May-2017 01:42:30 UTC] PHP Warning:  Creating default object from empty value in /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php on line 27
+[19-May-2017 01:42:30 UTC] PHP Stack trace:
+[19-May-2017 01:42:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[19-May-2017 01:45:19 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php on line 25
+[19-May-2017 01:50:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php on line 23
+[19-May-2017 01:50:15 UTC] PHP Stack trace:
+[19-May-2017 01:50:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[19-May-2017 01:55:47 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php on line 29
+[19-May-2017 02:00:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php on line 23
+[19-May-2017 02:00:37 UTC] PHP Stack trace:
+[19-May-2017 02:00:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_reminder_course.php:0
+[19-May-2017 02:01:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/INFS3202/php/try1.1.php on line 23
+[19-May-2017 02:01:14 UTC] PHP Stack trace:
+[19-May-2017 02:01:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/try1.1.php:0
+[19-May-2017 02:38:05 UTC] PHP Warning:  require_once(php/admin.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/INFS3202/php/show_course.php on line 2
+[19-May-2017 02:38:05 UTC] PHP Stack trace:
+[19-May-2017 02:38:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course.php:0
+[19-May-2017 02:38:05 UTC] PHP Fatal error:  require_once(): Failed opening required 'php/admin.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/INFS3202/php/show_course.php on line 2
+[19-May-2017 02:38:05 UTC] PHP Stack trace:
+[19-May-2017 02:38:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course.php:0
+[19-May-2017 03:28:49 UTC] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting function (T_FUNCTION) in /home/ubuntu/workspace/INFS3202/php/admin.php on line 716
+[19-May-2017 03:28:49 UTC] PHP Stack trace:
+[19-May-2017 03:28:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/logout.php:0
+[19-May-2017 06:02:48 UTC] PHP Warning:  require_once(../admin.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/INFS3202/php/show_course.php on line 2
+[19-May-2017 06:02:48 UTC] PHP Stack trace:
+[19-May-2017 06:02:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course.php:0
+[19-May-2017 06:02:48 UTC] PHP Fatal error:  require_once(): Failed opening required '../admin.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/INFS3202/php/show_course.php on line 2
+[19-May-2017 06:02:48 UTC] PHP Stack trace:
+[19-May-2017 06:02:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course.php:0
+[19-May-2017 06:02:48 UTC] PHP Warning:  require_once(../admin.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/INFS3202/php/show_course.php on line 2
+[19-May-2017 06:02:48 UTC] PHP Stack trace:
+[19-May-2017 06:02:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course.php:0
+[19-May-2017 06:02:48 UTC] PHP Fatal error:  require_once(): Failed opening required '../admin.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/INFS3202/php/show_course.php on line 2
+[19-May-2017 06:02:48 UTC] PHP Stack trace:
+[19-May-2017 06:02:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course.php:0
+[19-May-2017 06:02:48 UTC] PHP Warning:  require_once(../admin.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/INFS3202/php/show_course.php on line 2
+[19-May-2017 06:02:49 UTC] PHP Stack trace:
+[19-May-2017 06:02:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course.php:0
+[19-May-2017 06:02:49 UTC] PHP Fatal error:  require_once(): Failed opening required '../admin.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/INFS3202/php/show_course.php on line 2
+[19-May-2017 06:02:49 UTC] PHP Stack trace:
+[19-May-2017 06:02:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course.php:0
+[19-May-2017 06:40:36 UTC] PHP Fatal error:  Call to undefined function hash_equals() in /home/ubuntu/workspace/INFS3202/php/admin.php on line 298
+[19-May-2017 06:40:36 UTC] PHP Stack trace:
+[19-May-2017 06:40:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/login.php:0
+[19-May-2017 06:40:36 UTC] PHP   2. check_login() /home/ubuntu/workspace/INFS3202/php/login.php:16
+[19-May-2017 06:40:36 UTC] PHP   3. check_password() /home/ubuntu/workspace/INFS3202/php/admin.php:49
+[19-May-2017 07:42:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/INFS3202/php/show_course.php on line 22
+[19-May-2017 07:42:12 UTC] PHP Stack trace:
+[19-May-2017 07:42:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course.php:0
+[19-May-2017 07:44:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/INFS3202/php/show_course.php on line 22
+[19-May-2017 07:44:13 UTC] PHP Stack trace:
+[19-May-2017 07:44:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course.php:0
+[19-May-2017 07:49:51 UTC] PHP Fatal error:  Call to undefined method reminder::show_reminder_course() in /home/ubuntu/workspace/INFS3202/php/show_course.php on line 7
+[19-May-2017 07:49:51 UTC] PHP Stack trace:
+[19-May-2017 07:49:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course.php:0
+[19-May-2017 07:50:09 UTC] PHP Fatal error:  Call to undefined function prinf() in /home/ubuntu/workspace/INFS3202/php/show_course.php on line 9
+[19-May-2017 07:50:09 UTC] PHP Stack trace:
+[19-May-2017 07:50:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course.php:0
+[19-May-2017 09:05:02 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/INFS3202/php/admin.php on line 846
+[19-May-2017 09:05:02 UTC] PHP Stack trace:
+[19-May-2017 09:05:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/login.php:0
+[20-May-2017 08:02:07 UTC] PHP Warning:  require_once(../admin.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php on line 2
+[20-May-2017 08:02:07 UTC] PHP Stack trace:
+[20-May-2017 08:02:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php:0
+[20-May-2017 08:02:07 UTC] PHP Fatal error:  require_once(): Failed opening required '../admin.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php on line 2
+[20-May-2017 08:02:07 UTC] PHP Stack trace:
+[20-May-2017 08:02:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php:0
+[20-May-2017 08:18:48 UTC] PHP Warning:  require_once(../admin.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php on line 2
+[20-May-2017 08:18:48 UTC] PHP Stack trace:
+[20-May-2017 08:18:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php:0
+[20-May-2017 08:18:48 UTC] PHP Fatal error:  require_once(): Failed opening required '../admin.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php on line 2
+[20-May-2017 08:18:48 UTC] PHP Stack trace:
+[20-May-2017 08:18:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php:0
+[20-May-2017 08:18:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php on line 15
+[20-May-2017 08:18:56 UTC] PHP Stack trace:
+[20-May-2017 08:18:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php:0
+[20-May-2017 08:20:09 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php on line 10
+[20-May-2017 08:23:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php on line 10
+[20-May-2017 08:23:49 UTC] PHP Stack trace:
+[20-May-2017 08:23:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php:0
+[20-May-2017 08:24:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php on line 10
+[20-May-2017 08:24:10 UTC] PHP Stack trace:
+[20-May-2017 08:24:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php:0
+[20-May-2017 08:26:00 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php on line 11
+[20-May-2017 08:26:25 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php on line 11
+[20-May-2017 08:26:43 UTC] PHP Parse error:  syntax error, unexpected '"Final Report"' (T_CONSTANT_ENCAPSED_STRING), expecting '(' in /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php on line 8
+[20-May-2017 08:26:59 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php on line 11
+[20-May-2017 08:35:46 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php on line 13
+[20-May-2017 08:35:46 UTC] PHP Stack trace:
+[20-May-2017 08:35:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php:0
+[20-May-2017 08:35:46 UTC] PHP   2. array_push() /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php:13
+[20-May-2017 08:35:46 UTC] PHP Fatal error:  Call to a member function show_reminderlist() on a non-object in /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php on line 12
+[20-May-2017 08:35:46 UTC] PHP Stack trace:
+[20-May-2017 08:35:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php:0
+[20-May-2017 08:36:00 UTC] PHP Fatal error:  Call to a member function show_reminderlist() on a non-object in /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php on line 12
+[20-May-2017 08:36:00 UTC] PHP Stack trace:
+[20-May-2017 08:36:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/show_course_remindertry.php:0
+[20-May-2017 08:42:17 UTC] PHP Warning:  require_once(../admin.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/INFS3202/php/try1.1.php on line 2
+[20-May-2017 08:42:17 UTC] PHP Stack trace:
+[20-May-2017 08:42:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/try1.1.php:0
+[20-May-2017 08:42:17 UTC] PHP Fatal error:  require_once(): Failed opening required '../admin.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/INFS3202/php/try1.1.php on line 2
+[20-May-2017 08:42:17 UTC] PHP Stack trace:
+[20-May-2017 08:42:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/try1.1.php:0
+[20-May-2017 08:42:33 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/INFS3202/php/admin.php on line 369
+[20-May-2017 08:42:33 UTC] PHP Stack trace:
+[20-May-2017 08:42:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/try1.1.php:0
+[20-May-2017 08:43:07 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/INFS3202/php/admin.php on line 369
+[20-May-2017 08:43:07 UTC] PHP Stack trace:
+[20-May-2017 08:43:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/try1.1.php:0
+[20-May-2017 10:01:08 UTC] PHP Parse error:  syntax error, unexpected 'each' (T_STRING), expecting '(' in /home/ubuntu/workspace/INFS3202/php/try1.1.php on line 10
+[20-May-2017 15:05:31 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/INFS3202/php/try1.1.php on line 15
+[20-May-2017 15:36:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/INFS3202/php/try1.1.php on line 19
+[20-May-2017 15:36:47 UTC] PHP Fatal error:  Call to a member function show_reminderlist() on a non-object in /home/ubuntu/workspace/INFS3202/php/try1.1.php on line 5
+[20-May-2017 15:36:47 UTC] PHP Stack trace:
+[20-May-2017 15:36:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/try1.1.php:0
+[20-May-2017 15:36:54 UTC] PHP Fatal error:  Call to a member function show_reminderlist() on a non-object in /home/ubuntu/workspace/INFS3202/php/try1.1.php on line 5
+[20-May-2017 15:36:54 UTC] PHP Stack trace:
+[20-May-2017 15:36:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/try1.1.php:0
+[20-May-2017 15:37:16 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/INFS3202/php/try1.1.php on line 12
+[20-May-2017 15:37:16 UTC] PHP Stack trace:
+[20-May-2017 15:37:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/try1.1.php:0
+[20-May-2017 15:37:16 UTC] PHP   2. array_push() /home/ubuntu/workspace/INFS3202/php/try1.1.php:12
+[20-May-2017 15:37:16 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/INFS3202/php/try1.1.php on line 12
+[20-May-2017 15:37:16 UTC] PHP Stack trace:
+[20-May-2017 15:37:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/try1.1.php:0
+[20-May-2017 15:37:16 UTC] PHP   2. array_push() /home/ubuntu/workspace/INFS3202/php/try1.1.php:12
+[20-May-2017 15:42:09 UTC] PHP Parse error:  syntax error, unexpected '$jsonObject' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/INFS3202/php/try1.1.php on line 9
+[20-May-2017 15:42:18 UTC] PHP Parse error:  syntax error, unexpected '$jsonObject' (T_VARIABLE), expecting identifier (T_STRING) in /home/ubuntu/workspace/INFS3202/php/try1.1.php on line 8
+[20-May-2017 15:43:00 UTC] PHP Parse error:  syntax error, unexpected '$jsonObject' (T_VARIABLE), expecting identifier (T_STRING) in /home/ubuntu/workspace/INFS3202/php/try1.1.php on line 9
+[20-May-2017 15:48:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/INFS3202/php/try1.1.php on line 7
+[20-May-2017 15:48:10 UTC] PHP Stack trace:
+[20-May-2017 15:48:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/try1.1.php:0
+[22-May-2017 02:29:06 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/INFS3202/php/verify.php on line 2
+[22-May-2017 02:35:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/INFS3202/php/activate_account.php on line 19
+[22-May-2017 02:35:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/INFS3202/php/activate_account.php on line 19
+[22-May-2017 02:36:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/INFS3202/php/activate_account.php on line 19
+[22-May-2017 02:56:18 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/INFS3202/php/reset.php on line 2
+[22-May-2017 03:20:50 UTC] PHP Fatal error:  Call to undefined function mysqli_stmt_num_row() in /home/ubuntu/workspace/INFS3202/php/admin.php on line 195
+[22-May-2017 03:20:50 UTC] PHP Stack trace:
+[22-May-2017 03:20:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/reset.php:0
+[22-May-2017 03:20:50 UTC] PHP   2. check_email_hash() /home/ubuntu/workspace/INFS3202/php/reset.php:6
+[24-May-2017 16:11:03 UTC] PHP Fatal error:  Call to undefined function mysqli_stmt_num_row() in /home/ubuntu/workspace/INFS3202/php/admin.php on line 210
+[24-May-2017 16:11:03 UTC] PHP Stack trace:
+[24-May-2017 16:11:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/verify.php:0
+[24-May-2017 16:11:03 UTC] PHP   2. check_email_hash() /home/ubuntu/workspace/INFS3202/php/verify.php:8
+[24-May-2017 16:21:36 UTC] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/INFS3202/php/admin.php on line 210
+[24-May-2017 16:21:36 UTC] PHP Stack trace:
+[24-May-2017 16:21:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/try.php:0
+[24-May-2017 16:21:36 UTC] PHP   2. get_email() /home/ubuntu/workspace/INFS3202/php/try.php:3
+[24-May-2017 16:21:36 UTC] PHP   3. mysqli_stmt_fetch() /home/ubuntu/workspace/INFS3202/php/admin.php:210
+[24-May-2017 16:22:01 UTC] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/INFS3202/php/admin.php on line 210
+[24-May-2017 16:22:01 UTC] PHP Stack trace:
+[24-May-2017 16:22:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/try.php:0
+[24-May-2017 16:22:01 UTC] PHP   2. get_email() /home/ubuntu/workspace/INFS3202/php/try.php:3
+[24-May-2017 16:22:01 UTC] PHP   3. mysqli_stmt_fetch() /home/ubuntu/workspace/INFS3202/php/admin.php:210
+[24-May-2017 16:22:35 UTC] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/INFS3202/php/admin.php on line 210
+[24-May-2017 16:22:35 UTC] PHP Stack trace:
+[24-May-2017 16:22:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/try.php:0
+[24-May-2017 16:22:35 UTC] PHP   2. get_email() /home/ubuntu/workspace/INFS3202/php/try.php:3
+[24-May-2017 16:22:35 UTC] PHP   3. mysqli_stmt_fetch() /home/ubuntu/workspace/INFS3202/php/admin.php:210
+[24-May-2017 16:23:03 UTC] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/INFS3202/php/admin.php on line 210
+[24-May-2017 16:23:03 UTC] PHP Stack trace:
+[24-May-2017 16:23:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/try.php:0
+[24-May-2017 16:23:03 UTC] PHP   2. get_email() /home/ubuntu/workspace/INFS3202/php/try.php:3
+[24-May-2017 16:23:03 UTC] PHP   3. mysqli_stmt_fetch() /home/ubuntu/workspace/INFS3202/php/admin.php:210
+[27-May-2017 17:04:00 UTC] PHP Fatal error:  Call to undefined function alert() in /home/ubuntu/workspace/INFS3202/php/login.php on line 24
+[27-May-2017 17:04:00 UTC] PHP Stack trace:
+[27-May-2017 17:04:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/INFS3202/php/login.php:0

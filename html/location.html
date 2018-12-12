@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>StudentTM Maps </h1>
+
+<div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var myCenter= new google.maps.LatLng(-27.4991588,153.0000416);
+var mapCanvas= document.getElementById("googleMap");
+var mapOptions= {center: myCenter, zoom: 5, mapTypeId:google.maps.MapTypeId.HYBRID};
+var map = new google.maps.Map(mapCanvas, mapOptions);
+var marker = new google.maps.Marker({position:myCenter, animation: google.maps.Animation.BOUNCE});
+marker.setMap(map);
+var infowindow= new google.maps.InfoWindow({
+    content: "The University Of Queensland St Lucia"
+});
+infowindow.open(map,marker);
+google.maps.event.addListener(marker, 'click', function(){map.setZoom(15);map.setCenter(marker.getPosition());
+});
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGRtDc1X1p2cI5EP0ki6rx7q0God8gUGk&callback=myMap"></script>
+</body>
+</html>

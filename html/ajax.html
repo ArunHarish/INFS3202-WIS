@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX request</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <script>
+        $(document).ready(function() {
+           $.post("../php/show_course.php", {
+               "showcourse" : 'true'
+           }, function(e) {
+               console.log(e);
+           }) 
+        });
+    </script>
+</body>
+</html>

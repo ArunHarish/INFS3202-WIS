@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css?family=Puritan');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+	background :#fff;
+	font-family: 'Puritan';
+}
+body div#wrapper {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+div#wrapper>div#top {
+	position:relative;
+	top:0;
+	left:0;
+	width:100%;
+	height:50px;
+	background: #222;
+	color:#eee !important;
+}
+div#top div#twrapper {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+div#twrapper div {
+	float:left;
+	height:100%;
+}
+
+div#twrapper div#ham {
+	width:100px;
+	height:50px;
+	font-size:27px;
+	color:#eee;
+	text-align: center;
+	padding:10px 0 11.5px 0;
+	transition:background border 300ms;
+}
+div#twrapper div#ham.expand {
+	background:#000;
+}
+
+div#twrapper div#logo {
+    color: #eee;
+    font-size: 27px;
+    cursor:default;
+    width:180px;
+}
+div#twrapper div {
+	overflow:hidden;
+    transition:background 300ms;
+}
+div#twrapper div:not(#search):hover{
+	background:rgba(255, 255, 255, 0.075);
+}
+
+div#logo div#font {
+	position:relative;
+	top:7px;
+	padding:0 5px 0 5px;
+}
+div#font sub {
+	font-size:8.5pt;
+}
+div#top div#Right {
+	position:absolute;
+	right:20px;
+}
+div#top div#Right div.right {
+	position: relative;
+	left:5pt;
+	width:50px;
+	height:100%;
+	font-size:22.5px;
+}
+
+div#Right div.right div.rightwrapper {
+	width:100%;
+	height:50px;
+	padding:14px 0 14px 0;
+	text-align: center;
+}
+div#top div#search {
+	position:relative;
+	top:0;
+	width:50%;
+	height:100%;
+	padding:0 0 0 5px;	
+	
+}
+div#search div#swrapper {
+	position:relative;
+	width:100%;
+	height:42px;
+	top:4px;
+	background:#333;
+	border-radius: 3px;
+}
+div#swrapper div#txt {
+	position:relative;
+	top:7.5px;
+	left:0;
+	left:4px;
+	width:calc(100% - 50px);
+	
+}
+div#swrapper div#txt input {
+	width:80%;
+	height:35px;
+	color:#eee;
+	background: none;
+	border:none;
+	font-size: 15pt;
+}
+div#swrapper div#button {
+	width:50px;
+	height:50px;
+	font-size:22.5px;
+	text-align: center;
+	padding:10px 0 10px 0;
+}
+
+div#wrapper div#appInterface {
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+}
+
+div#appInterface div#tabs {
+	position: relative;
+	top:55px;
+	width:150px;
+	height:40px;
+}
+div#appInterface div#tabs div#tabWrapper {
+	width:100%;
+	height:100%;
+}
+div#appInterface div#tabs div#tabWrapper>div {
+	position: relative;
+	float:left;
+	width:50px;
+	height: 40px;
+	padding:10px 0px 10px 0px;
+	background:#e24;
+	color:#eee;
+	text-align: center;
+}
+div#appInterface div#tabs div#tabWrapper>div.selected {
+	background:#222;
+}
+div#appInterface div#interfaceWrapper {
+	position:relative;
+	width:100%;
+	height: 100%;
+
+}
+div#interfaceWrapper div#sidePanel {
+	position:relative;
+	top:50px;
+	width:300px;
+	height:calc(100% - 50px);	
+	background: #000;
+	color:#eee;
+}
+/* Tree starts here */
+div#interfaceWrapper div#sidePanel div#widwrapper div#tree {
+	position:relative;
+	top:5px;
+	left:10px;
+	width:280px;
+}
+div#sidePanel div#widwrapper div#tree {
+	font-size:14pt;
+}
+/*Tree finishes here */
+
+/*Widget starts here */
+div#sidePanel div#widwrapper {
+	width:300px;
+	height:100%;
+}
+
+div#widwrapper div#Today {
+	width:100%;
+	height:50px;
+	background: #000;
+}
+
+div#Today div#TimeWrapper {
+	padding:5px;
+	text-align: center;
+	font-size: 15pt;
+}
+div#notifications {
+	width:100%;
+	height:60px;
+}
+div#nowrapper {
+	width: 100%;
+	height:100%;
+	background: #333;
+}
+div#nowrapper div#lists {
+	width:100%;
+	height:100%;
+}
+div#lists {
+	width:100%;
+	height: 100%;
+}
+div#lists div {
+	float:left;
+	width:100px;
+	height:100%;
+	background: #000;
+}
+
+
+div#lists div>div#txt {
+	width:100px;
+	height:100%;
+	font-size:12pt;
+	text-align: center;
+}
+div#lists div>div#txt>div#label {
+	width:100%;
+	height:20px;
+}
+div#lists div>div#txt>div#number {
+	position:relative;
+	width:100%;
+	height:20px;
+	padding: 0px 0 10px 0;
+	font-size:20pt;
+}
+/* Widget ends */
+/*MenuUI div starts */
+div#sidePanel>div#widwrapper>div#menuUI {
+	position:relative;
+	width:100%;
+	background:#000;
+}
+
+div#sidePanel>div#widwrapper>div#menuUI>div {
+	height:40px;
+	overflow:hidden;
+	width:100%;
+	transition: background 1s;
+	transition:height 0.5s ease-out;
+    box-shadow: 1px 1px #111;
+}
+div#sidePanel>div#widwrapper>div#menuUI>div.opened {
+	height:300px;
+	overflow-y:auto;
+	width:300px;
+	background:#111;
+}
+div#sidePanel>div#widwrapper>div#menuUI>div>div>div#menu {
+	width:300px;
+	height:40px;
+	padding:5px 0 5px 0;
+}
+div#sidePanel>div#widwrapper>div#menuUI>div>div>div#menu:hover {
+	background:#111;
+}
+div#sidePanel>div#widwrapper>div#menuUI>div>div>div#menu>div#box>div#icon {
+	float:left;
+	font-size:14pt;
+	padding:5px;
+}
+div#sidePanel>div#widwrapper>div#menuUI>div>div>div#menu>div#box>div#txt {
+	font-size:14pt;
+	padding:2.5px;
+	float:left;
+}
+/*MenuUI div ends */
+/*mainInterface div child starts */
+div#mainInterface > div[class^="closed"][class$="Panel"] {
+	display:none;
+}
+/*mainInterface div child ends */
+/*TodoPanel starts*/
+div#TodoPanel {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    width: calc(100% - 300px);
+    height: calc(100% - 50px);
+    background: #fff;
+    font-family: "Roboto";
+
+}
+div#TodoPanel>div#top {
+	position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    padding: 5px;
+    text-align: center;
+}
+div#TodoPanel>div#checkbox {
+	position:relative;
+	top:25px;
+	left:30%;
+	width:400px;
+	background: #6e69ff;
+	box-shadow: 1px 1px 2px #000;
+}
+div#TodoPanel>div#checkbox>div#checkbox_wrap {
+	position:relative;
+	width:100%;
+}
+/*TodoPanel ends */
+/*CalendarPanel starts */
+div#CalendarPanel {
+	position:absolute;
+	width:calc(100% - 300px);
+	height:calc(100% - 50px);
+	top:50px;
+	left:300px;
+	background:#fff;
+}
+div#CalendarPanel div#CalendarIntWrapper {
+	width:100%;
+	height:100%;
+}
+div#CalendarPanel div#CalendarIntWrapper div#top {
+	position:relative;
+	width:100%;
+	height:80px;
+	background:#f00;
+	top:0;
+}
+div#CalendarPanel div#CalendarIntWrapper div#top>div#Tab>div {
+	width:100px;
+	height:40px;
+	float:left;
+	padding:5px;
+}
+/*CalendarPanel ends */
+
+div#checkbox div#Adder {
+	position:relative;
+	width:400px;
+	
+	height:40px;
+	background:#eee;
+}
+div#checkbox div#Adder>div#content {
+	width:300px;
+	padding:10px 10px 10px 10px;
+}
+div#checkbox div#Adder div {
+	float:left;
+}
+div#checkbox div#Adder div#options {
+	width:100px;
+	height:40px;
+}
+div#checkbox div#Adder div#options div#content {
+	width:100%;
+	height:100%;
+}
+div#checkbox div#Adder div#options div#content div {
+	width:33px;
+	height:100%;
+	text-align: center;
+	padding:13px 0 13px 0;
+}
+div#checkbox_wrap>div#check {
+	position: relative;
+	width:100%;
+	height:40px;
+}
+div#checkbox_wrap>div#check>div {
+	float:left;
+}
+div#checkbox_wrap>div#check>div#dnd {
+	width:20px;
+	height:40px;
+	padding:10px 0 10px 0;
+	text-align:center;
+	font-size:15pt;
+	cursor:move;
+}
+div#checkbox_wrap>div#check>div#content {
+	width:380px;
+	height:40px;
+}
+div#checkbox_wrap>div#check>div#content>div#wrap {
+	float:left;
+	width:380px;
+}
+div#checkbox_wrap>div#check>div#content>div#wrap>div#txt {
+	float:left;
+	width:350px;
+	height:40px;
+	font-size:15pt;
+	padding:10px 0 5px 0;
+}
+div#checkbox_wrap>div#check>div#content>div#wrap>div#remove {
+	float:left;
+	font-size:15pt;
+	width:30px;
+	height:40px;
+	padding:10px 0 10px 0;
+	text-align: center;
+}

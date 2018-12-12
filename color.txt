@@ -1,0 +1,1 @@
+{"indigo":"#6e69ff","yellow":"#fdff69","red":"#ff6969","green":"#b1ff69","grey":"#9d9d9d","blue":"#4072ff"}

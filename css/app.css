@@ -1,0 +1,727 @@
+/******************* Course creation **************************/
+
+body#overlayon {
+    overflow: hidden;
+}
+
+body {
+    overflow: auto;
+}
+
+body>div#overlay {
+    display:none;
+}
+
+body#overlayon>div#overlay {
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display:block;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+
+
+div#courseWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+div#content {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+}
+
+div#editCourse {
+    position: relative;
+    max-width: 595px;
+    min-width: 200px;
+    width: 99%;
+    height: 90%;
+    max-height: 495px;
+    min-height: 300px;
+    margin: 0 auto;
+    background: #000;
+    color: #eee;
+    padding: 2.5px;
+}
+
+div#editCourse div#header {
+    display: block;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 1.5em;
+    background: #000;
+    font-weight: bold;
+    padding: 5px 2.5px;
+    position: relative;
+    z-index:1;
+}
+
+div#editCourse div#courseContent div#tableHeader
+{
+    position: relative;
+    width: 100%;
+    height: 40px;
+}
+
+div#editCourse div#courseContent div#tableHeader div#row>div,
+div#editCourse div#courseContent div#listCourse div#row>div{
+    display: table;
+    width: 33.33%;
+    height: 40px;
+    float: left;
+    font-size: 1.2em;
+    background: #111;
+}
+div#editCourse div#courseContent div#listCourse div#row>div {
+    background:#111;
+}
+
+div#editCourse div#courseContent div#listCourse {
+    position: relative;
+    width: 100%;
+    height:calc(100% - 80px);
+    overflow-y:auto;
+    padding:2.5px;
+}
+
+div#editCourse div#courseContent div#addBtn {
+    width: 100%;
+    height: 40px;
+}
+
+div#editCourse div#courseContent div#addBtn div#options {
+    position:absolute;
+    bottom:0;
+    left:0;
+    width: 50px;
+    height: 40px;
+    background: #111;
+    display: table;
+}
+
+div#editCourse div#courseContent div#addBtn div#options span {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+div#editCourse div#courseContent div#tableHeader {
+    border-bottom:1px solid #eee;
+}
+
+div#editCourse div#courseContent div#tableHeader div#row>div>div,
+div#editCourse div#courseContent div#listCourse div#row>div>div {
+    display:table-cell;
+    vertical-align:middle;
+    text-align: center;
+}
+div#editCourse div#courseContent div#listCourse div#row>div>div#icon {
+    display:none;
+}
+div#editCourse div#courseContent div#listCourse div#row>div:hover>div#icon {
+    display:table-cell;
+}
+
+
+div#editCourse div#courseContent {
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 40px);
+    top: 40px;
+    left: 0;
+    background: #000;
+    z-index: 0;
+    font-weight: bold;
+}
+
+
+/****************** Header Wrapper ****************************/
+
+div#wrapper>div#header {
+    z-index: 2;
+}
+
+div#wrapper>div#header>div#header_wrapper>div#sandbtn_wrapper {
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    background: #222;
+    transition: background 2s;
+}
+
+div#wrapper>div#header.expand>div#header_wrapper>div#sandbtn_wrapper {
+    background: #000;
+}
+
+
+/****************** Search UI ****************************/
+
+div#wrapper>div#header>div#header_wrapper>div#search_wrapper {
+    position: relative;
+    height: 100%;
+    transition: width 100ms;
+}
+
+div#wrapper>div#header>div#header_wrapper>div#search_wrapper>div#swrapper {
+    position: relative;
+    top: 4px;
+    width: 100%;
+    height: 42px;
+    background: #333;
+    border-radius: 3px;
+}
+
+div#wrapper>div#header>div#header_wrapper>div#search_wrapper>div#swrapper div {
+    float: left;
+}
+
+div#wrapper>div#header>div#header_wrapper>div#search_wrapper>div#swrapper div#txt {
+    position: absolute;
+    width: 100%;
+    height: 42px;
+}
+
+div#wrapper>div#header>div#header_wrapper>div#search_wrapper>div#swrapper div#txt>input {
+    position: absolute;
+    width: 100%;
+    height: 42px;
+    color: #eee;
+    background: none;
+    border: none;
+    font-size: 15pt;
+    outline: 0;
+    padding: 0 2.5px 0 45px;
+    z-index: 0;
+}
+
+div#wrapper>div#header>div#header_wrapper>div#search_wrapper>div#swrapper div#button {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 45px;
+    height: 42px;
+    font-size: 27px;
+    line-height: 16px;
+    transition: all 500ms;
+    z-index: 1;
+}
+
+div#wrapper>div#header>div#header_wrapper>div#search_wrapper>div#swrapper div#button:hover {
+    background: #444;
+    border-radius: 0 3px 3px 0;
+}
+
+div#wrapper>div#header>div#header_wrapper>div#search_wrapper>div#swrapper div#button>button {
+    width: 100%;
+    height: 100%;
+    outline: 0;
+    background: none;
+    border: none;
+    text-align: center;
+}
+
+div#wrapper>div#header>div#header_wrapper>div#righticons {
+    position: absolute;
+    width: 90px;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+}
+
+div#wrapper>div#header>div#header_wrapper>div#righticons>div {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: #222;
+    transition: background 500ms;
+    text-align: center;
+    font-size: 22.5px;
+}
+
+div#wrapper>div#header>div#header_wrapper>div#righticons>div:hover {
+    background: #000;
+}
+
+
+/****************** Side Panel ****************************/
+
+div#wrapper>div#content>div#content_wrapper>div#sidePanel {
+    position: fixed;
+    width: 300px;
+    height: calc(100% - 50px);
+    background: #000;
+    padding: 0;
+    color: #eee;
+    z-index: 2;
+    display: none;
+}
+
+div#wrapper>div#header.expand+div#content>div#content_wrapper>div#sidePanel {
+    display: block;
+    overflow-y: auto;
+}
+
+div#wrapper>div#content>div#content_wrapper>div#sidePanel>div#menuUI {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+div#wrapper>div#content>div#content_wrapper>div#sidePanel>div#menuUI>div.parent {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+    transition: height 1s;
+}
+
+div#wrapper>div#content>div#content_wrapper>div#sidePanel>div#menuUI>div.parent.cl {
+    height: 40px;
+    background: #222;
+}
+
+div#sidePanel>div#menuUI>div.parent>div.wrapper div.menu:hover {
+    background: #111;
+}
+
+div#sidePanel>div#menuUI>div.parent>div.wrapper div.menu {
+    position: relative;
+    width: 300px;
+    height: 40px;
+    padding: 5px 0;
+    background: #000;
+}
+
+div#sidePanel>div#menuUI>div.parent>div.wrapper div.menu>div#box>div {
+    float: left;
+    font-size: 14pt;
+}
+
+div#sidePanel>div#menuUI>div.parent>div.wrapper div.menu>div#box>div#icon {
+    padding: 5px;
+}
+
+div#sidePanel>div#menuUI>div.parent>div.wrapper div.menu>div#box>div#text {
+    padding: 2.5px;
+}
+
+div#sidePanel>div#menuUI>div.parent>div.wrapper>div.content {
+    width: 100%;
+}
+
+
+/****************** Reminder Tree Interface ****************************/
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 14pt;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName {
+    position: relative;
+    width: 100%;
+    display: block;
+    transition: height 250ms;
+    font-size: 14pt;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName>ul#list>li#child div {
+    float: left;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName>ul#list>li#child div#cname {
+    width: 194px;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName>ul#list>li#child div#tools {
+    position: absolute;
+    width: 60px;
+    height: 26px;
+    right: 0;
+    top: 0;
+    background: #000;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName>ul#list>li#child div#tools>div {
+    position: relative;
+    padding: 3px 0;
+    width: 50%;
+    height: 100%;
+    font-size: 0.75em;
+    text-align: center;
+    display: none;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName>ul#list>li#child:hover div#tools>div,
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName>ul#list>li#child.select div#tools>div {
+    display: block;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName.cl {
+    height: 36px;
+    overflow: hidden;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName>ul#list li#parent div#exstatus>span#open {
+    display: none;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName.cl>ul#list li#parent div#exstatus>span#open {
+    display: block;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName.cl>ul#list li#parent div#exstatus>span#close {
+    display: none;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName>ul#list li#parent div#exstatus>span#close {
+    display: block;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName>ul#list {
+    list-style: none;
+    cursor: default;
+    padding: 0;
+    clear: both;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName>ul#list li {
+    position: relative;
+    padding: 5px;
+    height: 36px;
+    line-height: 26px;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName>ul#list li:hover {
+    background: #222;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName>ul#list li:hover div#tools {
+    display: block;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName>ul#list li#child {
+    margin-left: 36px;
+    font-size:1em;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName>ul#list li#parent div#exstatus {
+    float: left;
+    height: 26px;
+    width: 26px;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName>ul#list li#parent div#cname {
+    height: 26px;
+    margin-left: 36px;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName>ul#list li#parent div#tools {
+    position: absolute;
+    float: left;
+    width: 60px;
+    height: 26px;
+    top: 0;
+    right: 0;
+    display: none;
+    transition: background 250ms;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName>ul#list li#parent:hover div#tools {
+    display: block;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName>ul#list li#parent div#tools div {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: table;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName>ul#list li#parent div#tools div span {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+div#menuUI>div#reminderParent>div#reminderWrapper>div#reminderContent>div#tree>div#courseName>ul#list li#parent div#tools:hover {
+    background: #000;
+}
+
+
+/*Hack here remove padding when sidepanel becomes fixed */
+
+@media(min-width:0px) and (max-width:991px) {
+    div.padEffect {
+        padding-left: 0;
+    }
+    div#wrapper>div#content>div#content_wrapper>div#sidePanel {
+        position: fixed;
+        width: 300px;
+        height: 100%;
+    }
+}
+
+
+/*Hack here to make the main interface padding to be 300px otherwise */
+
+@media(min-width:991px) {
+    div#wrapper>div#header.expand+div#content div.padEffect {
+        padding-left: 300px;
+    }
+}
+
+
+/****************** Main Interface ****************************/
+
+div#wrapper>div#content>div#content_wrapper>div#mainInterface {
+    transition: padding 100ms;
+}
+
+div#wrapper>div#content>div#content_wrapper>div#mainInterface,
+div#content>div#content_wrapper>div#mainInterface>div#interfaceWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+/****************** Reminder Interface ****************************/
+
+div#reminderInterface>div#reminderHeading {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+}
+
+div#reminderInterface>div#reminderHeading>div#headingWrapper {
+    position: fixed;
+    margin: 0;
+    height: 50px;
+    left: 0;
+    z-index: 1;
+    background: #fff;
+}
+
+div#reminderInterface>div#reminderHeading>div#headingWrapper>div#content {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+div#reminderInterface>div#reminderHeading>div#headingWrapper>div#content>div#courseCode {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+div#reminderInterface>div#reminderContent {
+    position: relative;
+    min-height: 100%;
+    padding-top: 50px;
+}
+
+
+/****************** Pin Board ****************************/
+
+div#reminderInterface>div#reminderContent>div#pinBoard {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div#reminderInterface>div#reminderContent>div#pinBoard>div#pinContent {
+    width: 410px;
+}
+
+div#reminderInterface>div#reminderContent>div#pinBoard>div#pinContent>div#notes {
+    width: 400px;
+    background: #efdefe;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+    margin: 5px;
+}
+
+
+/****************** Reminder options ****************************/
+
+div#reminderInterface>div#reminderContent>div#pinBoard>div#pinContent>div#notes>div#notesOptions {
+    position: relative;
+    width: 100%;
+    background: #ddd;
+    height: 40px;
+}
+
+div#reminderInterface>div#reminderContent>div#pinBoard>div#pinContent>div#notes>div#notesOptions>div#optionWrapper {
+    position: relative;
+    width: 160px;
+    height: 40px;
+    right: 0;
+    margin: auto;
+}
+
+div#reminderInterface>div#reminderContent>div#pinBoard>div#pinContent>div#notes>div#notesOptions>div#optionWrapper>div {
+    position: relative;
+    width: 30px;
+    height: 40px;
+    display: table;
+    float: left;
+    text-align: center;
+}
+
+div#reminderInterface>div#reminderContent>div#pinBoard>div#pinContent>div#notes>div#notesOptions>div#optionWrapper>div:hover {
+    background: #ccc;
+}
+
+div#reminderInterface>div#reminderContent>div#pinBoard>div#pinContent>div#notes>div#notesOptions>div#optionWrapper>div>span {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+/****************** Reminder Content ****************************/
+
+div#reminderContent>div#pinBoard>div#pinContent>div#notes>div#notesWrapper {
+    position: relative;
+    padding: 5px;
+}
+
+div#reminderContent>div#pinBoard>div#pinContent>div#notes>div#notesWrapper>div#reminderTitle {
+    padding: 2.5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+div#reminderContent>div#pinBoard>div#pinContent>div#notes>div#notesWrapper>div#reminderNotes {
+    position: relative;
+    width: 100%;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+
+/****************** Reminder Checklist ****************************/
+
+div#pinBoard>div#pinContent>div#notes>div#notesWrapper>div#reminderNotes>div#checklist {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+}
+
+div#pinContent>div#notes>div#notesWrapper>div#reminderNotes>div#checklist>div#checklist_wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+/********************** DnD **********************************/
+
+div#notes>div#notesWrapper>div#reminderNotes>div#checklist>div#checklist_wrapper>div#dnd {
+    position: relative;
+    float: left;
+    width: 15px;
+    height: 15px;
+    display: table;
+}
+
+div#notes>div#notesWrapper>div#reminderNotes>div#checklist>div#checklist_wrapper>div#dnd>div#icon {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/***************** Check List content wrapper ***********************/
+
+div#notes>div#notesWrapper>div#reminderNotes>div#checklist>div#checklist_wrapper>div#checklcontent {
+    position: relative;
+    float: left;
+    width: calc(100% - 45px);
+    height: 100%;
+}
+
+div#notes>div#notesWrapper>div#reminderNotes>div#checklist>div#checklist_wrapper>div#checklcontent>div#lcontent>div#reminderList {
+    width: 100%;
+    min-height: 30px;
+    line-height: 25px;
+    display: inline-block;
+    background: transparent;
+    overflow: hidden;
+    border: none;
+    outline: 0;
+    font-size: 1.25em;
+    text-align: left;
+}
+
+div#notes>div#notesWrapper>div#reminderNotes>div#checklist>div#checklist_wrapper>div#checklcontent>div#lcontent>div#reminderList.checked {
+    text-decoration: line-through;
+}
+
+
+/**************** Checkbox **************************/
+
+div#notes>div#notesWrapper>div#reminderNotes>div#checklist>div#checklist_wrapper>div#checkbox {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    float: left;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+/*********** On not complete *********************/
+
+div#notes>div#notesWrapper>div#reminderNotes>div#checklist>div#checklist_wrapper>div#checkbox::before {
+    content: "\2610";
+}
+
+
+/************ Complete and hover ********************/
+
+div#notes>div#notesWrapper>div#reminderNotes>div#checklist>div#checklist_wrapper>div#checkbox:hover::before,
+div#notes>div#notesWrapper>div#reminderNotes>div#checklist>div#checklist_wrapper>div#checkbox.checked::before {
+    content: "☑";
+}
+
+
+/*********** Remove box ************************/
+
+div#notes>div#notesWrapper>div#reminderNotes>div#checklist>div#checklist_wrapper>div#checkbox.editing::before {
+    content: '☐';
+}

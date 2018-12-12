@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Puritan');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+* {
+    font-family:"Roboto";
+    text-align: left;
+}
+
+div[class="panel panel-danger"] {
+    color:#f00;
+}
+div[class="panel panel-info"] {
+    color:#0061ff;
+}
+
+body {
+	background :#fff;
+}
+
+body a, body a:hover, body a:focus {
+    color:inherit;
+    text-decoration:none;
+}
+
+div.container {
+    position:absolute;
+    width:100%;
+    height:100%;
+    padding:0;
+}
+
+div.row {
+    margin:0;
+}
+
+div#wrapper {
+    top:0;
+    left:0;
+    background:#fff;
+}
+
+div#wrapper>div#header {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:50px;
+    background:#222;
+    z-index:1;
+    line-height:55px;
+    margin:0;
+    font-size:27px;
+}
+
+div#wrapper>div#header div#header_wrapper {
+    position: absolute;
+    width:100%;
+    height:100%;
+    font-size:27px;
+    color:#eee;
+}
+
+div#header_wrapper>div {
+    float:left;
+    height:100%;
+}
+
+div#header_wrapper div#sidelogo_wrapper {
+    color: #eee;
+    font-size: 27px;
+    cursor:default;
+    transition:background 0.5s;
+    text-align: center;
+    max-width: 200px;
+}
+
+div#header_wrapper div#sidelogo_wrapper:hover {
+    background:#000;
+}
+
+div#header_wrapper div#sidelogo_wrapper div#canvas {
+    display: inline-block;
+}
+
+div#header_wrapper div#sidelogo_wrapper div#canvas div#font sub {
+    font-size:8.5pt;
+}
+
+div#wrapper>div#content {
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    margin:0;
+    padding-top:50px;
+}
+
+div#wrapper div#content div#content_wrapper {
+    position:relative;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    margin:0;
+    background:#fff;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    font-size:1em;
+}

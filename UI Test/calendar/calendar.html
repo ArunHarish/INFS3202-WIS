@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Calendar Widget Trial page
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+        <style>
+            div.wrapper {
+                position:absolute;
+                top:0;
+                left:0;
+                width:100%;
+                height:100%;
+            }
+            /*max-width:702px;*/
+            /*max-height:527.16px;*/
+            div.calendarWrapper {
+                position:relative;
+                margin:auto;
+                left:0;
+                background:#333;
+                font-family: 'Source Code Pro', consolas, 'lucida console',monospace;
+                color:#eee;
+                cursor:default;
+                width:600px;
+                height:440px;
+            }
+            
+            div.calendarWrapper div.titleWrapper {
+                position:relative;
+                width:100%;
+                height:40px;
+                background:#000;
+                text-align:center;
+                font-size:1.25em;
+            }
+            
+            div.calendarWrapper div.monthTitle {
+                width:100%;
+                height:100%;
+                font-weight: bolder;
+            }
+
+            div.calendarWrapper div.interfaceWrapper {
+                width:100%;
+                height:100%;
+            }
+            div.calendarWrapper div.interfaceWrapper div.monthWrapper {
+                width:100%;
+                height:100%;
+            }
+            div.calendarWrapper div.interfaceWrapper div.headings {
+                width:100%;
+                height:30px;
+            }
+            div.calendarWrapper div.headings div {
+                width:14.2857143%;
+                height:20px;
+                float:left;
+                text-align: center;
+                padding:5px 0 5px 0;
+                background:#111;
+            }
+            div.calendarWrapper div.interfaceWrapper div.monthWrapper div.dayWrapper {
+                position:relative;
+                width:100%;
+                height:88.3333333%;
+                background:#222;
+            }
+
+            div.calendarWrapper div.dayWrapper div[class^="r"] {
+                width:100%;
+                height:16.6666667%;
+            }
+            div.calendarWrapper div.dayWrapper div[class^="r"] div[class^="c"] {
+                width:13.6607143%;
+                height:100%;
+                float:left;
+                background:#000;
+                font-size:1em;
+                padding:0 0 0 0.625%;
+                transition:background 500ms;
+            }
+            div.calendarWrapper div.dayWrapper div[class^="r"] div[class^="c"] {
+                -moz-box-shadow:0 0 0.02em 0em #fff;
+                -webkit-box-shadow:0 0 0.02em 0em #fff;
+                -o-box-shadow:0 0 0.02em 0em #fff;
+            }
+            div.calendarWrapper div.dayWrapper div[class^="r"] div[class^="c"]:hover {
+                background:rgb(40,40,40);
+            }
+            div.calendarWrapper div.dayWrapper div[class^="r"] div[class^="c"][class$="disabled"],
+            div.calendarWrapper div.dayWrapper div[class^="r"] div[class^="c"][class$="disabled today"] {
+                background:rgb(24, 24, 24);
+            }
+            div.calendarWrapper div.dayWrapper div[class^="r"] div[class^="c"][class$="disabled today"],
+            div.calendarWrapper div.dayWrapper div[class^="r"] div[class^="c"][class$="today"] {
+                color:#000;
+                background:#e00;
+            }
+        </style> 
+    </head>
+    <body>
+        <div class ="wrapper">
+            <div class ="calendarWrapper">
+                <div class ="titleWrapper">
+                    <div class="monthTitle">
+                        <span class ="headingMonth">
+                            APRIL
+                        </span>
+                    </div>
+                </div>
+                <div class ="interfaceWrapper">
+                    <div class="monthWrapper">
+                        <div class="headings">
+                            <div class = "sun">
+                                <span class="txt">SUN</span>
+                            </div>
+                            <div class = "mon">
+                                <span class="txt">MON</span>
+                            </div>
+                            <div class = "tue">
+                                <span class="txt">TUE</span>
+                            </div>
+                            <div class = "wed">
+                                <span class="txt">WED</span>
+                            </div>
+                            <div class = "thu">
+                                <span class="txt">THU</span>
+                            </div>
+                            <div class = "fri">
+                                <span class="txt">FRI</span>
+                            </div>
+                            <div class = "sat">
+                                <span class="txt">SAT</span>
+                            </div> 
+                        </div>
+                        <div class="dayWrapper">
+                            <div class = "r1">
+                                <div class="c0 disabled">26</div>
+                                <div class="c1 disabled">27</div>
+                                <div class="c2 disabled">28</div>
+                                <div class="c3 disabled">29</div>
+                                <div class="c4 disabled">30</div>
+                                <div class="c5 disabled">31</div>
+                                <div class="c6">01</div>
+                            </div>
+                            <div class="r2">
+                                <div class="c0">02</div>
+                                <div class="c1">03</div>
+                                <div class="c2">04</div>
+                                <div class="c3">05</div>
+                                <div class="c4">06</div>
+                                <div class="c5">07</div>
+                                <div class="c6">08</div>
+                            </div>
+                            <div class="r3">
+                                <div class="c0">09</div>
+                                <div class="c1">10</div>
+                                <div class="c2">11</div>
+                                <div class="c3">12</div>
+                                <div class="c4">13</div>
+                                <div class="c5">14</div>
+                                <div class="c6">15</div>
+                            </div>
+                            <div class="r4">
+                                <div class="c0 today">16</div>
+                                <div class="c1">17</div>
+                                <div class="c2">18</div>
+                                <div class="c3">19</div>
+                                <div class="c4">20</div>
+                                <div class="c5">21</div>
+                                <div class="c6">22</div>
+                            </div>
+                            <div class="r5">
+                                <div class="c0">23</div>
+                                <div class="c1">24</div>
+                                <div class="c2">25</div>
+                                <div class="c3">26</div>
+                                <div class="c4">27</div>
+                                <div class="c5">28</div>
+                                <div class="c6">29</div>
+                            </div>
+                            <div class="r6">
+                                <div class="c0">30</div>
+                                <div class="c1 disabled">01</div>
+                                <div class="c2 disabled">02</div>
+                                <div class="c3 disabled">03</div>
+                                <div class="c4 disabled">04</div>
+                                <div class="c5 disabled">05</div>
+                                <div class="c6 disabled">06</div>
+                            </div>
+                        </div>
+                        <!--
+                        <div class="dayWrapper">
+                            <div class = "r1">
+                                <div class="c0 disabled">26</div>
+                                <div class="c1 disabled">27</div>
+                                <div class="c2 disabled">28</div>
+                                <div class="c3 disabled">29</div>
+                                <div class="c4 disabled">30</div>
+                                <div class="c5 disabled">31</div>
+                                <div class="c6">01</div>
+                            </div>
+                            <div class="r2">
+                                <div class="c0">02</div>
+                                <div class="c1">03</div>
+                                <div class="c2">04</div>
+                                <div class="c3">05</div>
+                                <div class="c4">06</div>
+                                <div class="c5">07</div>
+                                <div class="c6">08</div>
+                            </div>
+                            <div class="r3">
+                                <div class="c0">09</div>
+                                <div class="c1">10</div>
+                                <div class="c2">11</div>
+                                <div class="c3">12</div>
+                                <div class="c4">13</div>
+                                <div class="c5">14</div>
+                                <div class="c6">15</div>
+                            </div>
+                            <div class="r4">
+                                <div class="c0 today">16</div>
+                                <div class="c1">17</div>
+                                <div class="c2">18</div>
+                                <div class="c3">19</div>
+                                <div class="c4">20</div>
+                                <div class="c5">21</div>
+                                <div class="c6">22</div>
+                            </div>
+                            <div class="r5">
+                                <div class="c0">23</div>
+                                <div class="c1">24</div>
+                                <div class="c2">25</div>
+                                <div class="c3">26</div>
+                                <div class="c4">27</div>
+                                <div class="c5">28</div>
+                                <div class="c6">29</div>
+                            </div>
+                            <div class="r6">
+                                <div class="c0">30</div>
+                                <div class="c1 disabled">01</div>
+                                <div class="c2 disabled">02</div>
+                                <div class="c3 disabled">03</div>
+                                <div class="c4 disabled">04</div>
+                                <div class="c5 disabled">05</div>
+                                <div class="c6 disabled">06</div>
+                            </div>
+                        </div>
+                        !-->
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

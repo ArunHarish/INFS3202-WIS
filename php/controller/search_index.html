@@ -1,0 +1,60 @@
+<html>  
+ <head>  
+  <script language="JavaScript" src="searchScript.js"></script>  
+  <style>  
+  <!--CSS CODES -->  
+  a{  
+   text-decoration: none;  
+  }  
+  input{  
+   width: 400px;  
+   height: 50px;  
+   font-size: 30px;  
+   padding-left: 20px;  
+   border: none;  
+   outline: none;  
+   box-shadow: inset 0px 0px 4px rgba(18, 18, 18, 0.4);  
+   font-family: roboto thin;  
+   border-radius: 15px;  
+  }  
+  #filter{  
+   width: 400px;  
+   max-height: 200px;  
+   border: 0px solid black;  
+   display: none;  
+   color: black;  
+   padding-top: 0px;  
+   overflow-y:scroll;  
+   overflow-x: hidden;  
+  }  
+  li{  
+   width: 100%;  
+   height: 50px;  
+   list-style: none;  
+   margin: 0px;  
+   font-size: 20px;  
+   color: grey;  
+   line-height: 50px;  
+   font-family: roboto black;  
+   text-align: left;  
+   padding-left: 20px;  
+  }  
+  li:hover{  
+   background: lightgrey;  
+   color: white;  
+  }  
+  ul{  
+    width: 100%;  
+   margin: 0px;  
+   position: relative;  
+   left: -40px;  
+  }  
+  </style>  
+ </head>  
+ <body ><br><br><br><br><br>  
+ <center>  
+  <input type="text" id="userInput" placeholder ="Search" onkeyup="process()"><br>  
+  <div id="filter"></div> <!--Div to display drop down suggestion -->  
+ </center>   
+ </body>  
+ </html>
